@@ -144,10 +144,10 @@ const EditProfile = () => {
                 rows="10"
               ></textarea>
             </p>
-            <p>
+            {/* <p>
               <label>Photo:</label>
               <input type="file" name="image" onChange={handleImageChange} />
-            </p>
+            </p> */}
             <div>
               <button className="--btn --btn-primary">Edit Profile</button>
             </div>
